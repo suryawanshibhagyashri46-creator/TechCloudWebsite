@@ -2,5 +2,5 @@ services:
   web:
     image: techcloud-website:latest
     ports:
-      - "8080:80"
+      - "8081:80"
     restart: always
