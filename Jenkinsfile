@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t todo-docker-app:latest .'
+                sh 'docker build -t techcloud-website:latest .'
             }
         }
         stage('Deploy Container') {
